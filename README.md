@@ -53,5 +53,4 @@
 
 <a id="chapter-3"></a>
 ## Схемы
-![SCHEME](https://github.com/AlexGyver/PCdisplay/blob/master/schemes%26PCBs/scheme_fritzing.png)
-![SCHEME](https://github.com/AlexGyver/PCdisplay/blob/master/schemes%26PCBs/scheme_EasyEDA.png)
+![SCHEME](https://github.com/MalfurionST/PCdisplay/blob/master/schemes/PCdisplay.png)
