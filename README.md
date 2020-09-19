@@ -27,8 +27,9 @@
 
 <a id="chapter-0"></a>
 ## Описание проекта
-За основу взят проект ["ЭКРАН С ПАРАМЕТРАМИ ЖЕЛЕЗА ПК С РЕОБАСОМ И ПОДСВЕТКОЙ"](https://alexgyver.ru/pcdisplay/) v 1.6
-Добавлено управление адресной светодиодной лентой из проекта ["МОДДИНГ ПК С LED И ARDUINO"](https://alexgyver.ru/pcdisplay_v2/) v. 1.0
+За основу взяты проекты:
+  - ["ЭКРАН С ПАРАМЕТРАМИ ЖЕЛЕЗА ПК С РЕОБАСОМ И ПОДСВЕТКОЙ"](https://alexgyver.ru/pcdisplay/) v 1.6
+  - ["МОДДИНГ ПК С LED И ARDUINO"](https://alexgyver.ru/pcdisplay_v2/) v. 1.0
 
 <a id="chapter-1"></a>
 ## Папки
