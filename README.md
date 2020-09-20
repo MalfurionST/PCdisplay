@@ -10,7 +10,7 @@
   - добавлено управление яркостью экрана и LED через фоторезистр
   - все настройки перенесены из программы в скетч (есть выбор источника настроек)
   - добавлены библитеки "GyverTimer" и "GyverButton"
-  - удержание любой кнопки 3 сек. переводит на начальный экран
+  - удержание любой кнопки 2 сек. переводит на начальный экран
   - если присвоить значение 0 пинам отвечающим за те или иные функции (BTN2, LED_GP_PIN, LED_CP_PIN, LED_R, LED_G, LED_B, FAN_PIN, SENSOR_PIN, BACKLIGHT), то они будут убраны при компиляции скетча
   - добавлена настройка выбора источника данных для адресных светодиодов макс. мин. с компьютера или разные для ЦП и ГП из скетча
   - настройка LED brighness переработана и изменяет яркость дисплея адресной и обычной ленты в пределах минимума и максимума обозначенных в настройках скетча
@@ -28,7 +28,7 @@
 <a id="chapter-0"></a>
 ## Описание проекта
 За основу взяты проекты:
-  - ["ЭКРАН С ПАРАМЕТРАМИ ЖЕЛЕЗА ПК С РЕОБАСОМ И ПОДСВЕТКОЙ"](https://alexgyver.ru/pcdisplay/) v 1.6
+  - ["ЭКРАН С ПАРАМЕТРАМИ ЖЕЛЕЗА ПК С РЕОБАСОМ И ПОДСВЕТКОЙ"](https://alexgyver.ru/pcdisplay/) v. 1.6
   - ["МОДДИНГ ПК С LED И ARDUINO"](https://alexgyver.ru/pcdisplay_v2/) v. 1.0
 
 <a id="chapter-1"></a>
@@ -40,16 +40,16 @@
 
 <a id="chapter-2"></a>
 ## Используемые библиотеки
-* [FastLED](https://github.com/FastLED/FastLED) v3.3.3
-* [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) v1.1.4
-* [TimerOne](https://github.com/PaulStoffregen/TimerOne) v1.1
-* [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) v3.9.0
-* [OneWire](https://github.com/PaulStoffregen/OneWire) v2.3.5
-* [GyverButton](https://github.com/AlexGyver/GyverLibs) v3.5
-* [GyverTimer](https://github.com/AlexGyver/GyverLibs) v3.2
-* [microWire](https://github.com/AlexGyver/GyverLibs) v2.1
-* [microLiquidCrystal_I2C](https://github.com/AlexGyver/GyverLibs) v1.1
-* [microDS18B20](https://github.com/AlexGyver/GyverLibs) v2.2
+* [FastLED](https://github.com/FastLED/FastLED) v. 3.3.3
+* [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) v. 1.1.4
+* [TimerOne](https://github.com/PaulStoffregen/TimerOne) v. 1.1
+* [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) v. 3.9.0
+* [OneWire](https://github.com/PaulStoffregen/OneWire) v. 2.3.5
+* [GyverButton](https://github.com/AlexGyver/GyverLibs) v. 3.5
+* [GyverTimer](https://github.com/AlexGyver/GyverLibs) v. 3.2
+* [microWire](https://github.com/AlexGyver/GyverLibs) v. 2.1
+* [microLiquidCrystal_I2C](https://github.com/AlexGyver/GyverLibs) v. 1.1
+* [microDS18B20](https://github.com/AlexGyver/GyverLibs) v. 2.2
 
 <a id="chapter-3"></a>
 ## Схемы
