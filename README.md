@@ -51,5 +51,5 @@
 * [microDS18B20](https://github.com/AlexGyver/GyverLibs) v. 2.2
 
 <a id="chapter-3"></a>
-## Схемы
+## Схема подключения
 ![SCHEME](https://github.com/MalfurionST/PCdisplay/blob/master/schemes/PCdisplay.png)
