@@ -31,7 +31,7 @@
   - ["МОДДИНГ ПК С LED И ARDUINO"](https://alexgyver.ru/pcdisplay_v2/) v. 1.0
 
 <a id="chapter-1"></a>
-## Папки
+## Папки проекта
 - **libraries** - библиотеки проекта. Заменить имеющиеся версии
 - **firmware** - прошивка для Arduino, файл в папке открыть в Arduino IDE
 - **HardwareMonitor** - программа, необходимая для работы устройства
