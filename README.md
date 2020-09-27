@@ -3,6 +3,7 @@
 * [Папки проекта](#chapter-1)
 * [Используемые библиотеки](#chapter-2)
 * [Схема подключения](#chapter-3)
+* [Анализ использования памяти](#chapter-4)
 
 ### Версии прошивки
 - m3.0 (первая которую решил выложить)
@@ -53,3 +54,27 @@
 <a id="chapter-3"></a>
 ## Схема подключения
 ![SCHEME](https://github.com/MalfurionST/PCdisplay/blob/master/schemes/PCdisplay.png)
+
+<a id="chapter-4"></a>
+## Анализ использования памяти
+
+Функция         | Arduino | GyverCore | Разница, Flash 
+----------------|---------|-----------|---------------
+millis	      	| 26      | 24	      | 2
+micros		      | 24	    | 20	      | 4
+pinMode         | 114     | 24        | 90             
+digitalWrite    | 200     | 24        | 176            
+digitalRead     | 190     | 24        | 166           
+analogWrite     | 406     | 48        | 358            
+analogRead      | 32      | 72        | -40            
+analogReference | 0       | 22        | -22            
+attachInterrupt | 212     | 180       | 32             
+detachInterrupt | 198     | 150       | 48         
+tone      	    | 1410    | 740       | 670       
+Serial begin    | 1028    | 166       | 862            
+print long      | 1094    | 326       | 768            
+print string    | 2100    | 1484      | 616            
+print float     | 2021    | 446       | 1575           
+parseInt        | 1030    | 214       | 816            
+readString      | 2334    | 1594      | 740            
+parseFloat      | 1070    | 246       | 824   
