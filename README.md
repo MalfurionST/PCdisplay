@@ -115,6 +115,9 @@
 
 <a id="chapter-4"></a>
 ## Схема подключения
+* Обязательные компоненты:
+- ардуино, дисплей 2004
+
 ![SCHEME](https://github.com/MalfurionST/PCdisplay/blob/master/schemes/PCdisplay.png)
 
 <a id="chapter-5"></a>
