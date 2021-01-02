@@ -25,6 +25,9 @@
 - m3.2
   - добавлена плавность изменения цвета при режиме по температуре
   - изменен алгоритм отображения цвета Manual COLOR (0 выкл, 1-7 яркие цвета, 8 радуга, 9 огонь, 10-1000 по радуге (с фиолетовым!))
+- m3.3
+  - оптимизация памяти
+  - добавлена CRT гамма-коррекция (полином)
 
 <a id="chapter-0"></a>
 ## Описание проекта
@@ -41,12 +44,12 @@
 
 <a id="chapter-2"></a>
 ## Используемые библиотеки
-* [FastLED](https://github.com/FastLED/FastLED) v. 3.3.3
+* [FastLED](https://github.com/FastLED/FastLED) v. 3.4.0
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) v. 1.1.4
 * [TimerOne](https://github.com/PaulStoffregen/TimerOne) v. 1.1
 * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) v. 3.9.0
 * [OneWire](https://github.com/PaulStoffregen/OneWire) v. 2.3.5
-* [GyverButton](https://github.com/AlexGyver/GyverLibs) v. 3.5
+* [GyverButton](https://github.com/AlexGyver/GyverLibs) v. 3.7
 * [GyverTimer](https://github.com/AlexGyver/GyverLibs) v. 3.2
 * [microWire](https://github.com/AlexGyver/GyverLibs) v. 2.1
 * [microLiquidCrystal_I2C](https://github.com/AlexGyver/GyverLibs) v. 1.1
@@ -129,12 +132,12 @@
 
 память  | compiler v  7.3.0 | compiler v  8.3.0 | compiler v  9.2.0 | compiler v 10.1.0 |
 --------|-------------------|-------------------|-------------------|-------------------|
-Flash   | 25778 / 22682     | 25770 / 22666     | 27834 / 24578     | 27794 / 24576     |
-SRAM    | 1937 / 1680       | 1937 / 1680       | 1937 / 1680       | 1937 / 1680       |
+Flash   | 25484 / 22388     | 25400 / 22294     | 27438 / 24222     | 27402 / 24234     |
+SRAM    | 1932 / 1674       | 1932 / 1674       | 1932 / 1674       | 1932 / 1674       |
 
 * GyverCore (стандартные / miсro библиотеки)
 
 память  | compiler v  7.3.0 | compiler v  8.3.0 | compiler v  9.2.0 | compiler v 10.1.0 |
 --------|-------------------|-------------------|-------------------|-------------------|
-Flash   | 25400 / 22890     | 25376 / 22896     | 27464 / 24936     | 27436 / 24904     |
-SRAM    | 1931 / 1680       | 1931 / 1680       | 1931 / 1680       | 1931 / 1680       |
+Flash   | 25028 / 22552     | 24946 / 22480     | 27022 / 24532     | 26988 / 24526     |
+SRAM    | 1926 / 1674       | 1926 / 1674       | 1926 / 1674       | 1926 / 1674       |
